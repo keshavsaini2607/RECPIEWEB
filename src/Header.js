@@ -27,10 +27,7 @@ function Header() {
                     <People className="userIcon" />
                     <span>Our Community</span>
                     </Link>
-                    <Link  className="dropdown_options">
-                    <Share className="userIcon" />
-                    <span>Socialize</span>
-                    </Link>
+                   
                  </div>
              </div>
 
@@ -39,18 +36,12 @@ function Header() {
                         <span className="span__head">Recpies </span>
                     </div>
                     <div class="dropdown-content">
-                        <a href="/food">
+                        <Link to="/">
                         <span>See all Recpies</span>
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
-                <div class="dropdown">
-                    <a href="/contactus" className="menu__title">
-                        <span className="span__head">Contact us </span>
-                    </a>
-                    
-                </div>
 
           <div class="dropdown">
           <div className="menu__title">
@@ -69,10 +60,7 @@ function Header() {
               <People className="userIcon" />
               <span>Our Community</span>
               </Link>
-              <Link  className="dropdown_options">
-              <Share className="userIcon" />
-              <span>Socialize</span>
-              </Link>
+              
            </div>
        </div>
             <SearchOutlined className="search__icon" />

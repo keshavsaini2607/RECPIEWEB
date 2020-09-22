@@ -4,7 +4,6 @@ import './Recpies.css'
 function Recpies() {
     return (
         <div className="recpie">
-            <h1 className="head">All Recpies</h1>
             <div className="wrapper">
                 <div className="card">
                     <img src="https://mobimg.b-cdn.net/pic/v2/gallery/preview/eda-frukty-gody-klubnika-7658.jpg" alt="" />

@@ -3,8 +3,9 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top: 0;
-    margin: 0 2rem;
+    top:0;
+    width: 100%;
+    background-color: lightgray;
 }
 
 a {
@@ -57,7 +58,12 @@ a {
     margin-left: 3vw;
     opacity: 0.7;
 }
+
+#span__login {
+    cursor: pointer;
+}
 #span__signup {
+    cursor: pointer;
     border: 1px solid black;
     border-radius: 999px;
     background-color: black;
